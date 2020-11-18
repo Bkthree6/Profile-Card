@@ -10,7 +10,7 @@ body {
     background: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
     background-color: #19a2ae;
     background-repeat: no-repeat;
-    background-position: right 50vw bottom 30vh, left 50vw top 50vh; 
+    background-position: right 50vw bottom 10vh, left 50vw top 45vh; 
 }
 header {
     height: 8.3em;
@@ -26,7 +26,7 @@ header img {
 .container {
     position: relative;
     background: white;
-    top: 50px;
+    top: 60px;
     right: 75px;
     height: 425px;
     width: 400px;

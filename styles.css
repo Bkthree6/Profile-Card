@@ -26,8 +26,7 @@ header img {
 .container {
     position: relative;
     background: white;
-    top: 90px;
-    right: 25px;
+    top: 120px;
     height: 425px;
     width: 400px;
     margin: 0 auto;
@@ -91,10 +90,4 @@ header img {
     font-size: 15px;
     color: hsl(0, 0%, 59%);
     padding-top: 9px;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 41%;
 }

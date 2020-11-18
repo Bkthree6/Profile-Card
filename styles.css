@@ -19,4 +19,76 @@ header img {
     border-top-right-radius: 3%;
     border-top-left-radius: 3%;
 }
+.container {
+    position: relative;
+    background: white;
+    top: 75px;
+    height: 475px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 20px 40px -20px #777;
+    border-radius: 3%;
+}
 
+/* Card header */
+.card-header {
+    position: relative;
+    text-align: center;
+    bottom: 15px;
+}
+.card-header-img {
+    display: block;
+    position: relative;
+    bottom: 35px;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.card-name {
+    color: hsl(229, 23%, 23%);
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-age {
+    color: hsl(0, 0%, 59%);
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+.card-city {
+    color: hsl(0, 0%, 59%);
+    padding-top: 15px;
+}
+
+/* Bottom of the card */
+.card-stats {
+    display: flex;
+}
+.card-stat-item {
+    position: relative;
+    height: 120px;
+    top: 40px;
+    flex-grow: 3;
+    text-align: center;
+    border-top: .5px solid hsl(0, 0%, 59%);
+} 
+.card-stat-item p {
+    position: relative;
+    top: 40px;
+}
+.card-stat-num {
+    font-weight: 700;
+}
+.card-stat-str {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+    padding-top: 9px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 32%;
+}

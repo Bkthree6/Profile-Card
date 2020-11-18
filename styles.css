@@ -8,29 +8,34 @@ body {
     width: 1440px;
     font-family: 'Kumbh Sans', sans-serif;
     background: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-color: #19a2ae;
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 30vh, left 50vw top 50vh; 
 }
 header {
-    height: 150px;
+    height: 8.3em;
     width: 100%;
 }
 header img {
-    height: 150px;
+    height: 8.3em;
     width: 100%;
-    border-top-right-radius: 3%;
-    border-top-left-radius: 3%;
+    object-fit: fill;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .container {
     position: relative;
     background: white;
-    top: 75px;
-    height: 475px;
-    width: 500px;
+    top: 50px;
+    right: 75px;
+    height: 425px;
+    width: 400px;
     margin: 0 auto;
     box-shadow: 0 20px 40px -20px #777;
-    border-radius: 3%;
+    border-radius: 10px;
 }
 
-/* Card header */
+/* Top of the card */
 .card-header {
     position: relative;
     text-align: center;
@@ -68,14 +73,15 @@ header img {
 .card-stat-item {
     position: relative;
     height: 120px;
-    top: 40px;
+    top: 5px;
     flex-grow: 3;
     text-align: center;
-    border-top: .5px solid hsl(0, 0%, 59%);
+    border-top: 1px solid silver;
 } 
 .card-stat-item p {
     position: relative;
     top: 40px;
+    padding-right: 14px;
 }
 .card-stat-num {
     font-weight: 700;
@@ -90,5 +96,5 @@ header img {
 footer {
     position: absolute;
     bottom: 0;
-    right: 32%;
+    left: 41%;
 }
